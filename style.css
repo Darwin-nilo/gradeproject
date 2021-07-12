@@ -1,0 +1,125 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    width: 100%;
+    height: 150px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu li {
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    color: rgb(58, 57, 57);
+    cursor: pointer;
+}
+
+.menu a:hover {
+    font-weight: 600;
+    color: #006d77;
+}
+
+.imgMain {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.imgMain img {
+    width: 60%;
+}
+
+.games {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    border-top: 3px solid black;
+}
+
+.boxGames {
+    width: 75%;
+    height: 440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.boxGames:hover{
+    transition: 0.3s ease all;
+    transform: scale(1.1);
+}
+
+.boxGames img{
+    width: 30%;
+    margin: 20px;
+}
+
+#first {
+    margin-top: 50px;
+}
+.infoGames{
+    width: 50%;
+}
+
+.infoGames h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background: black;
+    font-size: 20px;
+    color: white;
+}
+
+img{
+    cursor:pointer;
+}
+
+img:hover{
+    border-radius: 50px;
+    transition: 0.3s ease all;
+    transform: scale(1.05);
+}
+
+.footer a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.footer a:hover {
+    font-weight: 600;
+    color: #006d77;
+}

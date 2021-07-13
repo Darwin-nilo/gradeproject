@@ -1,5 +1,5 @@
-function sayHello (user) {
-    if(user){
+function sayHello(user) {
+    if (user) {
         alert("Hola, " + user + " es un gusto saludarte!");
     }
 }
